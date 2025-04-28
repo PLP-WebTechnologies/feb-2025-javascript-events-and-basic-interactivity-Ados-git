@@ -1,0 +1,43 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+}
+
+button {
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+#hoverEffectBox {
+    margin-top: 20px;
+    padding: 20px;
+    background-color: lightgray;
+}
+
+.galleryImage {
+    margin: 10px;
+    width: 150px;
+    height: 150px;
+    transition: transform 0.3s ease;
+}
+
+.galleryImage:hover {
+    transform: scale(1.1);
+}
+
+.tabContent {
+    display: none;
+    margin-top: 20px;
+}
+
+.tabButton {
+    margin: 10px;
+    padding: 10px;
+}
+
+#doubleClickBox {
+    margin-top: 20px;
+    padding: 20px;
+    background-color: lightcoral;
+}
