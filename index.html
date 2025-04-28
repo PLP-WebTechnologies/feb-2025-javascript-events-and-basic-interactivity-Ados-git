@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Interactive JavaScript Playground</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <h1>Welcome to the Ultimate JavaScript Playground!</h1>
+
+    <!-- Button click event -->
+    <button id="changeTextButton">Click Me!</button>
+
+    <!-- Hover effect -->
+    <div id="hoverEffectBox">Hover over me!</div>
+
+    <!-- Keypress detection -->
+    <input type="text" id="keypressInput" placeholder="Type something..." />
+
+    <!-- Double-click / Long press event -->
+    <div id="doubleClickBox">Double-click me for a secret action!</div>
+
+    <!-- Image Gallery -->
+    <div id="imageGallery">
+        <img src="https://via.placeholder.com/150" alt="Image 1" class="galleryImage">
+        <img src="https://via.placeholder.com/150" alt="Image 2" class="galleryImage">
+        <img src="https://via.placeholder.com/150" alt="Image 3" class="galleryImage">
+    </div>
+
+    <!-- Form validation -->
+    <form id="signupForm">
+        <input type="text" id="username" placeholder="Username" required><br>
+        <input type="email" id="email" placeholder="Email" required><br>
+        <input type="password" id="password" placeholder="Password" required><br>
+        <button type="submit">Submit</button>
+    </form>
+
+    <!-- Tabs for accordion-style content -->
+    <div class="tabs">
+        <button class="tabButton" onclick="toggleTab(0)">Tab 1</button>
+        <button class="tabButton" onclick="toggleTab(1)">Tab 2</button>
+        <button class="tabButton" onclick="toggleTab(2)">Tab 3</button>
+
+        <div class="tabContent" id="tab0">Content for Tab 1</div>
+        <div class="tabContent" id="tab1">Content for Tab 2</div>
+        <div class="tabContent" id="tab2">Content for Tab 3</div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
